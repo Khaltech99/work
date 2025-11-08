@@ -48,8 +48,8 @@ export default Progress;
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#E8E9FE",
-    borderRadius: 16,
+    backgroundColor: "#F5F5FF",
+    borderRadius: 12,
     padding: 18,
     marginVertical: 20,
     shadowColor: "#000",
@@ -102,6 +102,7 @@ const styles = StyleSheet.create({
   countText: {
     fontSize: 16,
     fontWeight: "700",
+    color: "#444",
   },
   labelText: {
     fontSize: 14,
@@ -111,5 +112,6 @@ const styles = StyleSheet.create({
   percentText: {
     fontSize: 18,
     fontWeight: "700",
+    color: "#444",
   },
 });
